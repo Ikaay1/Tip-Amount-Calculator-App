@@ -1,4 +1,4 @@
-// import React, {useState, useEffect} from 'react';
+import React, {useState} from 'react';
 import logo from './images/icon-dollar.svg'
 import logo2 from './images/icon-person.svg'
 // import $ from 'jquery'
