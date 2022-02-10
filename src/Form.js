@@ -1,9 +1,9 @@
-import React, {useState, useEffect} from 'react';
+// import React, {useState, useEffect} from 'react';
 import logo from './images/icon-dollar.svg'
 import logo2 from './images/icon-person.svg'
 // import $ from 'jquery'
 import Display from './Display'
-import WebFont from 'webfontloader';
+// import WebFont from 'webfontloader';
 
 const Form = (props) => {
 
