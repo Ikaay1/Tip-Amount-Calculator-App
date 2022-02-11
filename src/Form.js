@@ -95,7 +95,7 @@ const Form = (props) => {
         setTotal("0.00")
         setTipp("")
         if (num2 !== "") {
-            setErr("Expect no number of person to find only tip amount")
+            setErr("Expect no number of person to find tip amount for one person")
             return;
         }
         const value2 = parseFloat(num)
