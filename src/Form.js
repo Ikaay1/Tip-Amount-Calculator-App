@@ -203,8 +203,6 @@ const Form = (props) => {
                 
                 <button type="button" className='butt butt1' onClick={handleClickthree}>Tip amount for 1 person</button>
                 <button type="button" className='butt butt2' onClick={handleClicktwo}>Tip amount for multiple persons</button>
-                <button type='button' className='butt4 butt3' onClick={handleClickthree}>For 1</button>
-                <button type='button' className='butt5 butt3' onClick={handleClicktwo}>For multple</button>
                 <div className="error err">{err}</div>
             </form>
             <div className='display'>

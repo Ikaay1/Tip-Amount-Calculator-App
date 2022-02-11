@@ -126,7 +126,6 @@ label {
 
 .butt {
   /* padding: 6px 30px; */
-  width: 20%;
   padding: 6px 9px;
   font-size: 14px;
   width: 35%;
@@ -416,22 +415,42 @@ label {
     height: 100%;
   }
 
+  .body {
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
   .frame {
-    width: 90%;
-    margin: 120px 0;
+    width: 100%;
+    display: block;
+    /* margin: 120px 0; */
     /* height: 70vh; */
   }
 
+  form {
+    width: 100%;
+  }
+
+  .input {
+    width: 100%;
+  }
+
+  .grp1, .grp2 {
+    display: flex;
+    justify-content: space-between;
+  }
+
   .buttons {
-    width: 28%;
+    width: 30%;
     text-align: center;
-    padding: 4px 0;
-    margin: 3px;
+    padding: 7px 0;
   }
 
   .input-box {
     margin: 0;
-    margin-bottom: 15px;
+    margin-bottom: 35px;
+    margin-top: 0;
   }
 
   #last {
@@ -444,42 +463,29 @@ label {
 
   .input {
     margin: 0;
+    padding: 9px 5px;
+  }
+  
+  #last {
+    margin-bottom: 15px;
   }
 
   .input.billtwo {
     margin: 0;
   }
 
-  .butt {
-    display: none;
-  }
-
-  .butt3 {
-    padding: 9px 6px;
-    font-weight: 700;
-    color: rgb(223, 219, 219);
-    margin-right: 7px;
-    background-color: hsl(183, 100%, 15%);
-    border-radius: 4px;
-    display: inline;
-    width: 90%;
-    border: none;
-    outline: none;
-    margin-bottom: 6px;
-  }
-
   .error {
     margin: 0;
-    font-size: 8px;
+    font-size: 10px;
     margin-left: 8px;
   } 
   .percent {
-    font-size: 8px;
+    font-size: 10px;
   } 
   
   .error.err {
     margin: 0;
-    font-size: 8px;
+    font-size: 10px;
   }
 
 
@@ -494,17 +500,32 @@ label {
   }
   
   .d1 {
-    font-size: 12px;
+    font-size: 16px;
     word-spacing: 1px;
     margin-bottom: 1px;
   }
   
   .d2 {
-    font-size: 8px;
+    font-size: 11px;
   }
   
   .amount1, .amount2 {
-    font-size: 17px;
+    font-size: 25px;
+  }
+
+  .butt {
+    margin-right: 0;
+    width: 80%;
+    transform: translateX(12%);
+  }
+
+  .butt.butt1 {
+    padding: 10px 0;
+  }
+  .butt.butt2 {
+    width: 80%;
+    padding: 6px 0;
+    margin-bottom: 45px;
   }
 
   .amount1 {
@@ -512,10 +533,8 @@ label {
   }
 
   .display {
+    width: 100%;
     padding: 37px 10px;
-  }
-  .butt5 {
-    width: 90%;
   }
 
   .reset {
